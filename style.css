@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+
 *,
 *:before,
 *:after {
@@ -5,19 +11,19 @@
 }
 
 @font-face {
-    font-family: "Ms Madi";
-    src: url("MsMadi-Regular.ttf");
+    font-family: "Playfair Display";
+    src: url("PlayfairDisplay-VariableFont_wght.ttf-Regular.ttf");
 }
 
 
 body {
-    background: linear-gradient(-90deg, #023047, #ffb703, #fb8500);
+    background: #ffffff;
     background-size: 500% 500%;
-    animation: gradient 15s linear infinite;
+    /* animation: gradient 15s linear infinite; */
 
 }
 
-@keyframes gradient {
+/* @keyframes gradient {
     0% {
         background-position: 0% 50%;
     }
@@ -35,7 +41,7 @@ body {
 img {
     max-width: 100%;
     height: auto;
-}
+} */
 
 /*
     1. Only use classes. Don't use IDs or HTML selectors.
@@ -49,16 +55,16 @@ img {
     justify-items: center;
     align-items: center;
     height: 200px;
-    padding-left: 550px;
-    padding-right: 550px;
+    padding-left: 300px;
+    padding-right: 300px;
     margin-bottom: 150px;
 
 }
 
 .header-title {
-    font-family: 'Courier New', Courier, monospace;
-    color: #1F2232;
+    font-family: 'Playfair Display', serif;
     font-size: 75px;
+    font-weight: 800;
 
 }
 
@@ -93,8 +99,9 @@ img {
     align-items: center;
     width: 100px;
     height: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Playfair Display, serif';
     font-size: 26px;
+    font-weight: 500;
     color: #1F2232;
     text-decoration: none;
 
@@ -102,6 +109,30 @@ img {
 
 .btn:hover {
     color: pink;
+}
+
+.home-title {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 60px;
+    font-weight: lighter;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.about-title {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 60px;
+    font-weight: lighter;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 5px;
 }
 
 .about-content {
@@ -116,19 +147,28 @@ img {
 
 }
 
-.prof-img {
+/* .prof-img {
 
     width: auto;
     height: 350px;
     margin-bottom: 500px;
     border-radius: 50%;
+} */
+
+.intro-left {
+    max-width: 500px;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 20px;
+    font-weight: lighter;
+    align-items: left;
 }
 
-.intro-text {
+.intro-right {
     max-width: 500px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Abhaya Libre', serif;
     font-size: 20px;
-
+    font-weight: lighter;
+    align-items: right;
 }
 
 .about-btn {
@@ -152,16 +192,34 @@ p {
     margin-bottom: 100px;
 }
 
+.contact-title {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 60px;
+    font-weight: l;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 5px;
+}
+
+
 .contact-info {
     max-width: 1250px;
     margin: auto;
     margin-top: 200px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Abhaya Libre', serif;
     font-size: 25px;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
 
+}
+
+.contact-bg {
+    background-image: "sakura-bg.png";
+    background-color: transparent;
 }
