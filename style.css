@@ -76,7 +76,7 @@ img {
 
 }
 
-.home-content {
+/* .home-content {
     max-width: 1250px;
     margin: auto;
     display: flex;
@@ -85,7 +85,7 @@ img {
     justify-items: center;
 
 
-}
+} */
 
 .btn-container {
     width: 500px;
@@ -155,6 +155,15 @@ img {
     border-radius: 50%;
 } */
 
+.intro-center {
+    max-width: 500px;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 20px;
+    font-weight: lighter;
+    align-items: center;
+    justify-items: center;
+}
+
 .intro-left {
     max-width: 500px;
     font-family: 'Abhaya Libre', serif;
@@ -222,4 +231,10 @@ p {
 .contact-bg {
     background-image: "sakura-bg.png";
     background-color: transparent;
+}
+
+.parallax-window {
+    height: 800px;
+    min-height: 400px;
+    background: transparent;
 }
