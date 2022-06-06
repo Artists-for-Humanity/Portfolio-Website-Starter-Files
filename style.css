@@ -19,34 +19,7 @@
 body {
     background: #ffffff;
     background-size: 500% 500%;
-    /* animation: gradient 15s linear infinite; */
-
 }
-
-/* @keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-
-img {
-    max-width: 100%;
-    height: auto;
-} */
-
-/*
-    1. Only use classes. Don't use IDs or HTML selectors.
-    2. Only select things with one class. Don't use inheritance selectors.
-*/
 
 .header {
 
@@ -68,12 +41,8 @@ img {
 
 }
 
-
-
 .header-content {
     display: flexbox;
-
-
 }
 
 .home-content {
@@ -96,7 +65,7 @@ img {
     height: 50px;
     font-family: 'Playfair Display, serif';
     font-size: 26px;
-    font-weight: 500;
+    font-weight: bold;
     color: #1F2232;
     text-decoration: none;
 
@@ -135,8 +104,6 @@ img {
     justify-items: center;
     padding: 200px;
 }
-
-
 
 .home-center {
     padding: 200px;
@@ -197,6 +164,9 @@ img {
     padding-bottom: 5px;
 }
 
+.contact-container {
+    justify-content: center;
+}
 
 .contact-info {
     max-width: 1250px;
@@ -212,10 +182,10 @@ img {
 
 }
 
-.contact-bg {
+/* .contact-bg {
     background-image: "sakuratree.jpg";
     background-color: transparent;
-}
+} */
 
 .parallax-window {
     height: 800px;
