@@ -116,37 +116,12 @@ img {
 
 }
 
-<<<<<<< HEAD
-.text-center {
-    padding: 150px;
-    /* display: flex;
-    text-align: center; */
-}
-
-.intro-center {
-    display: flex;
-    max-width: 500px;
-    font-family: 'Abhaya Libre', serif;
-    font-size: 20px;
-    font-weight: lighter;
-    text-align: center;
-    justify-items: center;
-}
-
-.intro-left {
-    max-width: 500px;
-    font-family: 'Abhaya Libre', serif;
-    font-size: 20px;
-    font-weight: lighter;
-    align-items: left;
-=======
 .prof-img {
 
     width: auto;
     height: 350px;
     margin-bottom: 500px;
     border-radius: 50%;
->>>>>>> parent of bfae2fe (added page titles)
 }
 
 .intro-text {
@@ -189,18 +164,4 @@ p {
     justify-items: center;
     align-items: center;
 
-<<<<<<< HEAD
-}
-
-.contact-bg {
-    background-image: "sakuratree.jpg";
-    background-color: transparent;
-}
-
-.parallax-window {
-    height: 800px;
-    min-height: 400px;
-    background: transparent;
-=======
->>>>>>> parent of bfae2fe (added page titles)
 }
