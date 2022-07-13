@@ -9,12 +9,24 @@
     src: url("MsMadi-Regular.ttf");
 }
 
+html {
+    width: 100vh;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    width: 190vh;
+    height: 100vh;
+}
 
 body {
-    background: linear-gradient(-90deg, #023047, #ffb703, #fb8500);
+    /* background: linear-gradient(-90deg, #631295, #7400E0, #3731da); */
     background-size: 500% 500%;
     animation: gradient 15s linear infinite;
-
+    width: 190vh;
+    height: 100vh;
 }
 
 @keyframes gradient {
@@ -49,15 +61,15 @@ img {
     justify-items: center;
     align-items: center;
     height: 200px;
-    padding-left: 550px;
-    padding-right: 550px;
+    /* padding-left: 550px; */
+    /* padding-right: 550px; */
     margin-bottom: 150px;
 
 }
 
 .header-title {
     font-family: 'Courier New', Courier, monospace;
-    color: #1F2232;
+    color: white;
     font-size: 75px;
 
 }
@@ -65,9 +77,8 @@ img {
 
 
 .header-content {
-    display: flexbox;
-
-
+    display: flex;
+    text-align: justify;
 }
 
 /* .home-content {
@@ -164,4 +175,8 @@ p {
     justify-items: center;
     align-items: center;
 
+}
+
+h1 {
+    color: #00ff00;
 }
