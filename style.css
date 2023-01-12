@@ -57,17 +57,37 @@ body {
 	margin-left: 900px;
 }
 
+/* a:link, a:active {
+    color: blue;
+    text-decoration: none;
+} */
+
 .navitem {
     float: none;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
-  }
+}
 
 .navitem:hover {
     color: pink;
 }
+
+li.navitem a{
+    color: red !important;
+    /* text-decoration: none; */
+}
+
+.navitem:active{
+    color: red;
+    /* text-decoration: none; */
+}
+
+/* .navitem, a:active {
+    background-color: #C0C0C0;
+    color: green;
+} */
 
 .prof-img {
     width: auto;
