@@ -18,6 +18,7 @@
 body {
     font-family: 'Figtree';
     background: #fff8ed;
+    /* background-image: url(/images/halima-pallate_repeat-01.png); */
     background-size: 600% 600%;
     margin: 0;
     padding: 20px;
@@ -268,3 +269,16 @@ p {
     margin-bottom: 50px;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url("halima-pallate_repeat-01.png");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
