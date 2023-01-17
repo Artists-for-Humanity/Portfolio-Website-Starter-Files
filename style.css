@@ -18,15 +18,40 @@
 body {
     font-family: 'Figtree';
     background: #fff8ed;
-    /* background-image: url(/images/halima-pallate_repeat-01.png); */
-    background-size: 600% 600%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
     margin: 0;
     padding: 20px;
     color: black;
 }
 
+body.vol {
+    background-image: url("/images/Background-01.png");
+} 
 
-/* img {
+body.extr {
+    background-image: url("/images/greenBackground-01.png");
+} 
+
+body.awrd {
+    background-image: url("/images/yellowBackground-01.png");
+} 
+
+body.edc {
+    background-image: url("/images/blueBackground-01.png");
+} 
+
+body.wrk {
+    background-image: url("/images/purpleBackground-01.png");
+} 
+
+body.cntct {
+    background-image: url("/images/tealBackground-01.png");
+} 
+
+
+img {
     max-width: 100%;
     height: auto;
 }
