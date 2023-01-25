@@ -19,7 +19,7 @@ body {
     font-family: 'Figtree';
     background: #fff8ed;
     background-attachment: fixed;
-    background-size: cover;
+    overflow-y: overlay;
     background-size: 100% 100%;
     margin: 0;
     padding: 20px;
@@ -27,7 +27,7 @@ body {
 }
 
 body.vol {
-    background-image: url("/images/Background-01.png");
+    background-image: url("/images/pinkBackground-01.png");
 } 
 
 body.extr {
@@ -50,6 +50,9 @@ body.cntct {
     background-image: url("/images/tealBackground-01.png");
 } 
 
+body.indx {
+    background-image: url("/images/rpinkBackground-01.png");
+} 
 
 img {
     max-width: 100%;
@@ -73,20 +76,15 @@ img {
 }
 
 .navbar {
-    /* align-items: center;
+    /* align-items: center;*/
     width: 100px;
     height: 50px;
     font-size: 26px;
-    color: #ffffff; */
 	overflow: hidden;
 	width: 1100px;
 	margin-left: 900px;
-}
+} 
 
-/* a:link, a:active {
-    color: blue;
-    text-decoration: none;
-} */
 
 .navitem {
     float: none;
@@ -94,26 +92,21 @@ img {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
-}
+    color: grey;
+    border: 3px solid grey(205, 178, 255);
+    border-radius: 2em;
+} 
+
 
 .navitem:hover {
-    color: pink;
+    color: rgb(218, 218, 218);
 }
 
-li.navitem a{
-    color: red !important;
-    /* text-decoration: none; */
+.current:active {
+    color: rgb(218, 218, 218);
 }
 
-.navitem:active{
-    color: red;
-    /* text-decoration: none; */
-}
 
-/* .navitem, a:active {
-    background-color: #C0C0C0;
-    color: green;
-} */
 
 .prof-img {
     width: auto;
@@ -145,18 +138,6 @@ p {
 .about-btn:hover {
     opacity: 25%;
 
-}
-
-.content-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-bottom: 100px;
-}
-
-.content-title {
-    font-size: 18px;
-    text-align: center;
 }
 
 
@@ -271,14 +252,14 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* align-items: center;
-     */
+    align-items: center;
+     
 }
 
 .contact {
     font-size: 20px;
     /* margin-top: 100px;
-    margin-bottom: 100px; */
+    margin-bottom: 100px;*/ 
     border: 5px solid #99e0d3;
     background: #dafff8;
     border-radius: 2em;
@@ -292,6 +273,19 @@ p {
 .contact-title {
     font-size: 20px;
     margin-bottom: 50px;
+}
+
+.intro-text {
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff8ed;
+    padding-top: 57px;
+    padding-bottom: 57px;
+    /* border-top: 7px solid #FAC7C7;
+    border-bottom: 7px solid #FAC7C7; */
+    width: 100%;
+    /* border-radius: 13px; */
 }
 
 .parallax {
