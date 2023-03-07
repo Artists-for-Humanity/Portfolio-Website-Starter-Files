@@ -13,9 +13,9 @@
 body {
     background: linear-gradient(-90deg, #b28991, #c87368, #cb493b);
     background-size: 500% 500%;
-    animation: gradient 15s linear infinite;n
+    animation: gradient 15s linear infinite;
 
-};
+}
 
 @keyframes gradient {
     0% {
@@ -67,7 +67,7 @@ img {
 
 
 .header-content {
-    display: flexbox;
+    display: flexbox; 
 
 
 }
