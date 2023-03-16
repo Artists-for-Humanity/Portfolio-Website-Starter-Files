@@ -1,0 +1,9 @@
+{
+  "name": "basic-website-template",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "php -S localhost:8080 -t ./",
+    "export": "httrack localhost:8080  -O './_export'  -%v"
+  },
+  "dependencies": {}
+}
