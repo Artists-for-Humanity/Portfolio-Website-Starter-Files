@@ -58,7 +58,7 @@
 
     margin-left: 20px;
     width: 100px;
-    height: 105px
+    height: 105px;
 }
 
 .logobtn {
@@ -89,7 +89,6 @@
 
 
 .btn-container-2 {
-
     display: flex;
     justify-content: space-evenly;
 }
@@ -155,11 +154,25 @@ p {
 }
 
 
-/* baby_boonboy.html */
+
+
+
+
+
+/* baby_moonboy.html */
+
+
+
+
+
+
+
+
+
 
 .a-body {
 
-    background-color: pink;
+    background-color: rgb(255, 192, 202);
     background-size: 500% 500%;
     animation: gradient 15s linear infinite;
 
@@ -171,7 +184,7 @@ p {
     display: flex;
     flex-direction: column;
     height: 150px;
-    background-color: pink;
+    background-color: rgb(252, 213, 219);
 
 }
 
@@ -187,7 +200,245 @@ p {
     height: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 23px;
-    color: #1A3E84;
+    color: rgb(255, 136, 156);
     text-decoration: none;
 
+}
+
+.a-btn:hover {
+    color: #6079B9;
+}
+
+.baby {
+    color: white;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 25px;
+    width: 850px;
+
+}
+
+.a-photos {
+    margin-left: 50px;
+    width: 400px;
+    height: 450px;
+    margin-bottom: 70px;
+
+}
+
+.baby2 {
+    margin-left: 50px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 850px;
+}
+
+
+
+
+
+
+
+
+
+
+/* teen_moonboy.html */
+
+
+
+
+
+
+
+.b-body {
+
+    background-color: #89c398;
+    background-size: 500% 500%;
+    animation: gradient 15s linear infinite;
+
+}
+
+
+.b-header {
+
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    background-color: #abcfa8;
+
+}
+
+
+.b-btn {
+
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    width: 180px;
+    height: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    color: #2a8035;
+    text-decoration: none;
+
+}
+
+.b-btn:hover {
+    color: #6079B9;
+}
+
+.teen {
+    color: white;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 25px;
+    width: 850px;
+}
+
+.b-photos {
+    margin-left: 50px;
+    width: 400px;
+    height: 450px;
+    margin-bottom: 70px;
+}
+
+.teen2 {
+    color: white;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 25px;
+    width: 850px;
+}
+
+
+
+
+
+
+
+
+/* adult_moonboy.html */
+
+
+
+
+
+
+
+.c-body {
+
+    background-color: rgb(188, 149, 216);
+    background-size: 500% 500%;
+    animation: gradient 15s linear infinite;
+
+}
+
+            
+.c-header {
+
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    background-color: rgb(205, 175, 225);
+
+}
+
+
+.c-btn {
+
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    width: 180px;
+    height: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    color: rgb(124, 38, 186);
+    text-decoration: none;
+
+}
+
+.c-btn:hover {
+    color: #6079B9;
+}
+
+.adult {
+    color: white;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 25px;
+    width: 850px;
+
+}
+
+.c-photos {
+    margin-left: 50px;
+    width: 400px;
+    height: 450px;
+    margin-bottom: 70px;
+
+}
+
+.adult2 {
+    margin-left: 50px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 850px;
+}
+
+
+
+
+/* moonboy_photos.html */
+
+
+.d-body {
+
+    background-color: rgb(135, 199, 251);
+    background-size: 500% 500%;
+    animation: gradient 15s linear infinite;
+
+}
+
+.d-header {
+
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    background-color: rgb(162, 213, 255);
+
+}
+
+
+.d-photos {
+    margin-left: 50px;
+    width: 400px;
+    height: 450px;
+    margin-bottom: 70px;
+
+}
+
+.d-btn {
+
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    width: 180px;
+    height: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    color: rgb(43, 129, 199);
+    text-decoration: none;
+}
+
+.d-btn:hover {
+    color: #6079B9;
 }
