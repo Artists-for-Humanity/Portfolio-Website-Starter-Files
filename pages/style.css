@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
 body {
     background-color: #CDC1B5;
+    font-family: 'VT323', monospace;
 }
 
 .nav {
@@ -44,13 +48,24 @@ body {
     border-radius: 8px;
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 30px;
+
 }
 
 .header-image {
     width: 60px;
     height: auto;
     margin-left: 30px;
+}
+
+.heart-image {
+    width: 40px;
+    height: auto;
+}
+
+.cat-container {
+    display: flex;
+    flex-direction: row;
 }
 
 .header-container {
@@ -63,30 +78,62 @@ body {
     color: white;
     background-color: #AE804B;
     font-size: 80px;
+    /* font-family: ; */
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 50px;
     padding-bottom: 50px;
+
     /* width: 45%; */
     border-radius: 10px;
     text-align: center;
-    box-shadow: 5px 5px 5px 5px rgb(157, 157, 157);
+    box-shadow: 5px 5px 5px 5px rgba(183, 127, 92, 0.408) ;
     
 }
 
-.headshot {
+.headshot-border {
+
+position: absolute;
+    top: 13%;
+    left: 56%;
+    z-index: 4;
+}
+
+.headshot-image {
     border-radius: 50%;
-    padding: 10px;
-    border-width: 10px;
-    border-color: white;
-    background-color: white ;
-    
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    z-index: 3;
+    background-color: white;
+    padding: 7px;
 
 }
 
+.headshot-container {
+
+}
+
+.headshot-sign {
+    position: absolute;
+    bottom: 4%;
+    right: 3%;
+
+}
+
+.sign-name {
+    font-size: 65px;
+    color: white;
+
+    position: absolute;
+    bottom: 19%;
+    right: 25%;
+    
+}
+/* 
 .sign {
 
-}
+} */
 
 .home-content {
     display: flex;
