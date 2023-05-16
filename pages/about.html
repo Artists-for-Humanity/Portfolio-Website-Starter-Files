@@ -9,62 +9,61 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-
-
 <body>
-    <!-- <header class="header">
-        <div class="header-content">
-            <h1 class="header-title">Elayni Tejeda</h1>
-        </div> -->
+    <!-- nav bar -->
+    <div class="nav">
+        <div class="rope-container">
+            <img class="btn-image" src="../images/rope.png">
+        </div>
 
-    <div class="btn-container">
-        <a class="btn" href="../index.html">Home</a>
-        <a class="btn" href="about.html">About Me</a>
-        <a class="btn" href="work.html">Work</a>
-        <a class="btn" href="contact.html">Contact</a>
+        <div class="btn-container">
+            <img class="btn-image" src="../images/cat1.png">
+            <a class="btn" href="../index.html">Home</a>
+        </div>
+
+        <div class="btn-container">
+            <img class="btn-image-cat2" src="../images/cat2.png">
+            <a class="btn" href="about.html">About Me</a>
+        </div>
+
+
+        <div class="btn-container">
+            <img class="btn-image" src="../images/cat3.png">
+            <a class="btn" href="work.html">Work</a>
+        </div>
+
+        <div class="btn-container">
+            <img class="btn-image" src="../images/cat4.png">
+            <a class="btn" href="contact.html">Contact</a>
+        </div>
+
+        <div class="rope-container">
+            <img class="btn-image" src="../images/rope.png">
+        </div>
     </div>
+
+    <img class="nav-shelf" src="../images/shelf.png">
+
     </header>
 
-
-
     <main class="about-content">
-        <div class="content-row">
-            <h2>About Me</h2>
-        </div>
-
-        <div class="content-row">
-            <a class="about-btn" href="myPage.html"><img src="images/myImg.svg"></a>
-
-            <!-- <a class="about-btn" href="about-type2.html"><img
-                    src="https://i.natgeofe.com/k/d6011f3f-83fb-438b-b22e-6c01b07d6e17/spotted-hyena-walking-toward_3x4.jpg"></a> -->
-            <!-- <div>
-                <h3>2022 Excel Graduation </h2>
-                    <p class="intro-text">
-                        Talk about the things you are/plan on working on here.
-                    </p>
-            </div> -->
-        </div>
-
-        <div class="container">
-            <p class="intro-center">
-                text
-            </p>
-            <!--  <a class="about-btn" href="about-type2.html"><img
-                    src= -->
-        </div>
-        <br>
-
-        <div class="content-row">
-            <p class="intro-text">
-                text
-            </p>
-            <p class="intro-text">
-                text
-            </p>
-        </div>
 
     </main>
 
+    <div class="container-about">
+        <h1> <span class="auto-type"></span></h1>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Here are some thing's you should know about me! :)"],
+            typeSpeed: 100,
+            backSpeed: 120,
+            loop: true
+        })
+    </script>
 </body>
 
 </html>
