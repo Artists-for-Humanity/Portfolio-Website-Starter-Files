@@ -114,9 +114,9 @@ position: absolute;
 
 }
 
-.headshot-container {
+/* .headshot-container {
 
-}
+} */
 
 .headshot-sign {
     position: absolute;
@@ -143,6 +143,12 @@ position: absolute;
     display: flex;
     flex-direction: row ;
     justify-content:space-between;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    color: white;
 }
 /* img {
     position: absolute;
