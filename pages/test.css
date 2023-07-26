@@ -1,0 +1,49 @@
+
+
+@keyframes slide-right {
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+@keyframes slide-left {
+    from {
+        margin-left: 0%;
+    }
+    to {
+        margin-left: -100%;
+        display: none;
+    }
+}
+
+#hidden-contact-container{
+    left: 40px;
+    position: fixed;
+    z-index: 1;
+}
+
+#hidden-contact{
+    background-color:#c0c0c0;
+    border: 4px solid black;
+    width: 200px;
+    position: relative;
+    z-index: 10;
+}
+
+.filler{
+    height: 5000px;
+    width: 1980px;
+    background-color: blue;
+}
+
+.contact-container{
+    display: flex; 
+    flex-direction: column;
+}
+
+.contact-links{
+    text-align: center;
+}

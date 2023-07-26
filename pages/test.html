@@ -1,31 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="/node_modules/jquery-parallax.js/parallax.js"></script>
+    <title>Personal</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 </head>
-<body>
-    <div class="parallax-window" data-parallax="scroll" data-image-src="pinkflowers.png"></div>
-    <section>
-        <div class="container">
-            <h1>Blog</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi recusandae perspiciatis omnis nemo cumque? Soluta nam minima quis, alias distinctio, iure magnam fugit earum quaerat possimus aspernatur nulla facilis consectetur.</p>
+
+<script type = "text/javascript">
+    function slideIn(){
+        var x = document.getElementById("hidden-contact");
+
+    x.addEventListener("animationend", function(e) {
+        e.preventDefault();
+
+        if(x.style.animationName == "slide-left") {
+            x.style.display = "none";
+        }
+    });
+
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        x.style.animation = "1s slide-right";
+    }
+    else {
+        x.style.animation = "1s slide-left";
+    }
+    }
+
+</script>
+
+
+<!---------------------------------------------------------------------->
+<!-- SLIDE IN CONTACT PAGE -->
+        <div class = "contact-btn-container" id="contact-id">
+             <button onclick="slideIn()"><img src="/Assets/roblox stars.jpeg"></button>
         </div>
-    </section>
-    <div class="parallax-window" data-parallax="scroll" data-image-src="pinkflowers.png"></div>
-    <section>
-        <div class="container">
-            <h1>Blog</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi recusandae perspiciatis omnis nemo cumque? Soluta nam minima quis, alias distinctio, iure magnam fugit earum quaerat possimus aspernatur nulla facilis consectetur.</p>
-        </div>
-    </section>
+
+<!---------------------------------------------------------------------->
+<div class="filler"></div>
+
+<div id = "hidden-contact-container" >
+        <!-- <h1>CONTACT ME</h1> -->
+
+        <div id="hidden-contact" style="display:none;" class="contact-container">
+
+            <span class="contact-links">EMAIL</span>
+                <p >ItzClutchyz@gmail.com</p>
+            <span class="contact-links">NUMBER</span>
+                <p>857-123-9578</p>
+            <span class="contact-links">GITHUB</span>
+                <p>Merciless0</p>
+
+    </div>
+</div>
+
 </body>
-<!-- <script>
-    $('.parallax-window').parallax({imageSrc: '/pinkflowers.png'});
-</script> -->
 </html>
