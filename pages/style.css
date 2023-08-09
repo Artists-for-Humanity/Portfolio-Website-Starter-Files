@@ -32,21 +32,81 @@ a:hover{
     cursor: url(https://cur.cursors-4u.net/games/gam-4/gam307.ani), url(https://cur.cursors-4u.net/games/gam-4/gam307.png), auto !important;
 }
 
+/* <!----------------------------------------------------------------------> */
+
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
 
 
 /* <!----------------------------------------------------------------------> */
 /* OUTSIDE HEADER PROPERTIES */
 
-.header{
-    display: flex;
+Header{
+    display: flex; 
     flex-direction: row;
-    align-items: flex-end;
-    padding: 40px;
-    border-bottom: 8px dotted black;
-    width: 100%;
+    align-items: center;
     position: fixed;
+    padding: 40px;
+    border-bottom: 3px dotted black;
     box-shadow: 7px 7px 8px 2px  #c0c0c0;
-    background-color: white;
+    width: 100%;
+    background-color:white;
+    height: 200px;
+    z-index: 999;
+}
+
+/* <!----------------------------------------------------------------------> */
+
+.contact-container{
+    position: fixed;
+    transition: transform .5s ease;
+    transform: translateX(100%);
+    background: linear-gradient(-45deg,#f8f8ff, #c0c0c0, #702963,#483248 );
+    background-size: 500% 500%;
+    animation: gradient 15s ease infinite;
+    top: 430px;
+    right: 0px;
+    padding: 40px;
+    border-radius: 10%;
+    border: black solid 3px;
+    z-index: 999;
+}
+
+.contact-container.open {
+    transform: translateX(0%);
+    margin-right: 40px;
+
+}
+
+.contact-text{
+    font-family: mySecondFont;
+}
+
+.contact-header{
+    font-family: myFirstFont;
+
 }
 
 /* <!----------------------------------------------------------------------> */
@@ -66,24 +126,20 @@ a:hover{
     font-size: 100px;
     margin: 0%;
     font-family: myFirstFont;
-    padding-right: 480px;
+    padding-right: 490px;
 }
 
 
 
 /* <!----------------------------------------------------------------------> */
 /* BUTTONS */
-.btn-container{
-    padding-bottom: 20px;
-    display:flex;
-    flex-direction: row;
-}
 
 .btn{
     all: unset;
     font-size: 40px;
     padding: 0px 25px 0px 25px;
     font-family: mySecondFont;
+    margin-top: 20px;
 }
 
 .btn:hover{
@@ -213,8 +269,6 @@ a:hover{
 .project-container-3{
     padding: 100px 40px 100px 40px;
     display: flex; 
-    /* flex-direction: column; */
-    /* flex-direction: row; */
 }
 
 .img-up{
@@ -330,46 +384,3 @@ a:hover{
 }
 
 /* <!----------------------------------------------------------------------> */
-/* #6 */
-
-@keyframes slide-right {
-    from {
-        margin-left: -100%;
-    }
-    to {
-        margin-left: 0%;
-    }
-}
-
-@keyframes slide-left {
-    from {
-        margin-left: 0%;
-    }
-    to {
-        margin-left: -100%;
-        display: none;
-    }
-}
-
-#hidden-contact-container{
-    left: 40px;
-    position: fixed;
-   
-}
-
-#hidden-contact{
-    background-color:#c0c0c0;
-    border: 4px solid black;
-    width: 200px;
-    position: relative;
-    z-index: 100;
-}
-
-.contact-container{
-    display: flex; 
-    flex-direction: column;
-}
-
-.contact-links{
-    text-align: center;
-}
